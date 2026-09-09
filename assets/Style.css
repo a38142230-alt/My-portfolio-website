@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #4a4e69;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  font-size: 1.8rem;
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+main h2 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #4a4e69;
+  margin-bottom: 1.5rem;
+}
+
+section {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+section h3 {
+  margin-bottom: 1rem;
+  color: #22223b;
+}
+
+section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+section img:hover {
+  transform: scale(1.03);
+}
+
+section hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 1rem 0;
+}
+
+p {
+  text-align: center;
+  font-style: italic;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #22223b;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+  header h1 {
+    font-size: 1.4rem;
+  }
+  section {
+    padding: 1rem;
+  }
+}
